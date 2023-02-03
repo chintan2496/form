@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style type="text/css">
+            .submit:hover{
+                background-color: aqua;
+            }
+            .reset:hover{
+                background-color: aqua;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <h1>Online First Name</h1>
+            <label>First Name</label>
+            <input type="text" name="first name" placeholder="enter name"><br></br>
+            <label>Last Name</label>
+            <input type="text" name="last name" placeholder="enter name"><br></br>
+            <label>Email</label> <i class="fa fa-envelope-o"></i>
+            <input type="text" name="email" placeholder="enter email"><br></br>
+            <label>Contect no.</label> <i class="fa fa-phone"></i>
+            <input type="number" name="contect no." placeholder="enter contect no."><br></br>
+            <label>Password</label>
+            <input type="password" name="password" placeholder="enter password"><br></br>
+            <label>Male</label>
+            <input type="radio" name="male">
+            <label>Female</label>
+            <input type="radio" name="male"><br></br>
+            <label>Remember Me</label>
+            <input type="checkbox" name="Remember me"><br></br>
+            <input type="submit" class="submit" value="submit">
+            <input type="reset" class="reset" value="reset">
+        </form>
+    </body>
